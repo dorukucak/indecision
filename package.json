@@ -7,11 +7,11 @@
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack --mode development",
-    "build:prod": "webpack --mode production",
+    "build": "webpack --mode production",
     "dev-server": "webpack serve --mode development",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run build:prod"
+    "heroku-postbuild": "npm run build"
   
   },
   "dependencies": {
